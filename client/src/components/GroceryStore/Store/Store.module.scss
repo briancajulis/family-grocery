@@ -1,0 +1,21 @@
+.Container {
+  background-color: #ecf0f1;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Icon {
+  font-size: 1.3vw;
+  vertical-align: middle;
+  margin-top: 7px;
+}
+
+.Icon:not(:first-child) {
+  margin-left: 2vw;
+}
+
+.Trash:hover {
+  color: red;
+  cursor: pointer;
+}
